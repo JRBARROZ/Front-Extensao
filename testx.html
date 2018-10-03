@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.css">
+	<link rel="shortcut icon" href="_imagem/_icone/ifpe.png">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript"  src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.js"></script>
+</head>
+<body>
+	<form action="#" class="ui form" id="ui form">
+		<div class="field">
+			<label>Nome
+				<input type="text" name="nome" placeholder="Nome do evento" >
+				<input type="submit" value="Cadastrar Evento" class="ui primary button submit">
+			</label>
+		</div>
+	</form>
+	<script type="text/javascript">
+		$('.ui.form')
+  .form({
+    fields: {
+      name: {
+        identifier : 'special-name',
+        rules: [
+          {
+            type   : 'empty'
+          }
+        ]
+      }
+    }
+  })
+;
+	</script>
+</body>
+</html>

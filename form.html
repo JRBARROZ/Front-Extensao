@@ -3,16 +3,11 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.css">
-	<link rel="stylesheet" type="text/css" href="css/semantic.min.css">
 	<link rel="shortcut icon" href="_imagem/_icone/ifpe.png">
-	<script type="text/javascript" src="js/jquery-1.12.1.min.js"></script>
-	<script type="text/javascript" src="js/semantic.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript"  src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.js"></script>
 	<title>Portal de Eventos - IFPE</title>
-	<style type="text/css">
-	body{
-		background-color: #EEEEEE;
-	}
-</style>
+	<style type="text/css">body{background-color: #EEEEEE;}</style>
 </head>
 <body bgcolor="#E6E6FA">
 	<div class="ui container">
@@ -38,7 +33,7 @@
 						<strong><h3 class="ui dividing header">Sobre o evento</h3></strong>
 						<div class="field">
 							<br><label>Nome*
-								<input type="text" name="nome" placeholder="Nome do evento"  required="">
+								<input type="text" name="nome" placeholder="Nome do evento" >
 							</label>
 							<div class="field">
 								<br><label>Descrição*
@@ -48,12 +43,12 @@
 							<div class="two fields">
 								<div class="field">
 									<br><label>Email
-										<input type="text" name="email" placeholder="Email para contato" required="">
+										<input type="text" name="email" placeholder="Email para contato" >
 									</label>
 								</div>
 								<div class="field">
 									<br><label>Telefone
-										<input type="text" name="telefone" placeholder="Telefone para contato" required="">
+										<input type="text" name="telefone" placeholder="Telefone para contato" >
 									</label>
 								</div>
 							</div>
@@ -61,12 +56,12 @@
 							<div class="five fields">
 								<div class="field">
 									<br><label>Inicio*
-										<input type="date" name="data" placeholder="Data do evento"  required="">
+										<input type="date" name="data" placeholder="Data do evento"  >
 									</label>
 								</div>
 								<div class="field">
 									<br><label>Hora de Inicio*
-										<input type="text" name="horainicio" placeholder="Telefone para contato" value="00:00" required="">
+										<input type="text" name="horainicio" placeholder="Telefone para contato" value="00:00" >
 									</label>
 								</div> 
 								<div class="field">
@@ -74,19 +69,19 @@
 								</div>
 								<div class="field">
 									<br><label>Término*
-										<input type="date" name="terminio" required="">
+										<input type="date" name="terminio" >
 									</label>
 								</div>
 								<div class="field">
 									<br><label>Hora de Finalização*
-										<input type="text" name="finish" value="00:00" required="">
+										<input type="text" name="finish" value="00:00" >
 									</label>
 								</div>
 							</div>
 							<br><strong><h3 class="ui dividing header">Endereço do evento</h3></strong>
 							<div class="field">
 								<br><label>Campus do evento*</label>
-								<select name="campus" class="ui fluid dropdown" value="Escolha um campus" required="" >
+								<select name="campus" class="ui fluid dropdown" value="Escolha um campus"  >
 									<option value=""></option>
 									<option value="AL">IFPE - CAMPUS - ABREU E LIMA</option>
 									<option value="AF">IFPE - CAMPUS - AFOGADOS</option>
@@ -102,26 +97,29 @@
 					</div>
 				</div>
 			</form>
+				<div class="ui error message"></div>
 		</div>
 	</div>
 </div>
 	<script type="text/javascript">
-		$('#cadastro')
-		.form({
-			fields:{
-				Nome: {
-					identifier : 'nome',
-					rules: [
-						{
-							type:'empty',
-							prompt :' deu ruimm'
-						}
-					]
-
-				}
+	$(function(){
+		$('#cadastro').form({
+			nome : {
+				identifier : 'nome',
+				rules : [
+					{
+						type : 'empty',
+						prompt : 'Mano, coloca um nome ai pow'
+					}
+				]
 			}
-		})
-		;
+
+		}, {
+			onSuccess : function(e){
+				e.preventDefault();
+			}
+		});
+	});
 	</script>	
 </div>	
 </body>	
