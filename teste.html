@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/semantic.min.css">
+	<script type="text/javascript" src="js/jquery-1.12.1.min.js"></script>
+</head>
+<body>
+	<form action="#" class="ui form">
+		<div class="field">
+			<label>nome:</label>
+			<input type="text" name="nome">
+		</div>
+		<div class="field">
+			<input type="submit" class="ui primary button">
+		</div>
+	</form>
+</body>
+<script type="text/javascript">
+	$('.ui.form')
+  .form({
+    fields: {
+      name: 'empty'
+    }
+  })
+;
+</script>
+</html>
