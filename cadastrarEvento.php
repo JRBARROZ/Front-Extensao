@@ -13,7 +13,7 @@
 		<div class="ui segment">
 			<div class="ui vertically divided grid">
 				<div class="column">
-					<form action="#" class="ui form" id="cadastro">
+					<form action="previewEvento.php" class="ui form" id="cadastro" method="post">
 						<center>
 							<h2 class="ui  header">Cadastro do Evento</h2>
 						</center>
@@ -21,27 +21,27 @@
 						<strong><h3 class="ui dividing header">Sobre o evento</h3></strong>
 						<div class="field">
 							<br><label>Nome*
-								<input type="text" name="nome" placeholder="Nome do evento" required="" >
+								<input type="text" name="nome" placeholder="Nome do evento"  >
 							</label>
 							<div class="field">
 								<br><label>Descrição*
-									<textarea placeholder="Descrição do Evento" name="descricao" required=""></textarea>
+									<textarea placeholder="Descrição do Evento" name="descricao" ></textarea>
 								</label>
 							</div>
 							<div class="three fields">
 								<div class="field">
 									<br><label>Email
-										<input type="text" name="email" placeholder="Email para contato" required="" >
+										<input type="text" name="email" placeholder="Email para contato"  >
 									</label>
 								</div>
 								<div class="field">
 									<br><label>Telefone
-										<input type="text" name="telefone" placeholder="Telefone para contato"  required="">
+										<input type="text" name="telefone" placeholder="Telefone para contato"  >
 									</label>
 								</div>
 								<div class="field">
 									<br><br><label for="file" class="ui icon green inverted button"><i class="file image icon"></i> Adicionar-Imagem
-										<input type="file" name="telefone" placeholder="Telefone para contato"  required="" class="" style="display: none;" id="file">
+										<input type="file" name="imagem" placeholder="Telefone para contato"   class="" style="display: none;" id="file">
 									</label>
 								</div>
 							</div>
@@ -49,12 +49,12 @@
 							<div class="five fields">
 								<div class="field">
 									<br><label>Inicio*
-										<input type="date" name="data" placeholder="Data do evento"   required="">
+										<input type="date" name="data" placeholder="Data do evento"   >
 									</label>
 								</div>
 								<div class="field">
 									<br><label>Hora de Inicio*
-										<input type="text" name="horainicio" placeholder="Telefone para contato" value="00:00"  required="">
+										<input type="text" name="horainicio" placeholder="Telefone para contato" value="00:00"  >
 									</label>
 								</div> 
 								<div class="field">
@@ -74,7 +74,7 @@
 							<br><strong><h3 class="ui dividing header">Endereço do evento</h3></strong>
 							<div class="field">
 								<br><label>Campus do evento*</label>
-								<select name="campus" class="ui fluid dropdown" value="Escolha um campus"  required="" >
+								<select name="campus" class="ui fluid dropdown" value="Escolha um campus"   >
 									<option value=""></option>
 									<option value="AL">IFPE - CAMPUS - ABREU E LIMA</option>
 									<option value="AF">IFPE - CAMPUS - AFOGADOS</option>
