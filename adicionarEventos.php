@@ -5,30 +5,24 @@
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.css">
 	<link rel="shortcut icon" href="_imagem/_icone/ifpe.png">
 	<title>Portal de Eventos - IFPE</title>
-	<script type="text/javascript"></script>
+	<style>
+		body{
+			background-color: #000;
+		}
+	</style>
 </head>
 <body>
+	<?php include "navbarUser.php"; ?>
 	<div class="ui container">
-		<!-- Cabeçalho -->
-		<div class="ui clearing segment">
-			<div class="ui left floated header">
-				<img src="_imagem/_icone/ifpe.png" class="ui massive image">
-			</div>
-			<div class="ui right floated header">
-				<a href="eventos.html"><button class="ui gray basic button"><i class="calendar icon"></i>Meus Eventos</button></a>
-				<button class="ui gray basic button"><i class="question circle icon"></i>Ajuda</button>
-				<button class="ui gray basic button"><i class="user icon"></i>Admin</button>
-			</div>
-		</div>
 		<!-- Parte da seleção de eventos -->
 		<div class="ui three column grid">
 			<div class="column">
 				<div class="ui segment">
 					<div>
 						<center>
-							<a href="form.html">
+							<a href="cadastrarEvento.php">
 								<button class="ui basic medium button">
-									<h1 class="ui blue header">Novo Evento<br>
+									<h1 class="ui green header">Novo Evento<br>
 										<center><i class="plus large icon"></i></center>
 									</h1>
 								</button>

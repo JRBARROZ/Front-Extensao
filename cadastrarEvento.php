@@ -4,24 +4,12 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.css">
 	<link rel="shortcut icon" href="_imagem/_icone/ifpe.png">
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script type="text/javascript"  src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.js"></script>
 	<title>Portal de Eventos - IFPE</title>
-	<style type="text/css">body{background-color: #EEEEEE;}</style>
+	<style type="text/css">body{background-color: #000;}</style>
 </head>
 <body bgcolor="#E6E6FA">
+	<?php include "navbarUser.php"; ?>
 	<div class="ui container">
-		<!-- Cabeçalho -->
-		<div class="ui clearing segment">
-			<div class="ui left floated header">
-				<img src="_imagem/_icone/ifpe.png" class="ui massive image">
-			</div>
-			<div class="ui right floated header">
-				<button class="ui gray basic button"><i class="calendar icon"></i>Meus Eventos</button>
-				<button class="ui gray basic button"><i class="question circle icon"></i>Ajuda</button>
-				<button class="ui gray basic button"><i class="user icon"></i>Admin</button>
-			</div>
-		</div>
 		<div class="ui segment">
 			<div class="ui vertically divided grid">
 				<div class="column">
@@ -40,7 +28,7 @@
 									<textarea placeholder="Descrição do Evento" name="descricao" required=""></textarea>
 								</label>
 							</div>
-							<div class="two fields">
+							<div class="three fields">
 								<div class="field">
 									<br><label>Email
 										<input type="text" name="email" placeholder="Email para contato" required="" >
@@ -49,6 +37,11 @@
 								<div class="field">
 									<br><label>Telefone
 										<input type="text" name="telefone" placeholder="Telefone para contato"  required="">
+									</label>
+								</div>
+								<div class="field">
+									<br><br><label for="file" class="ui icon green inverted button"><i class="file image icon"></i> Adicionar-Imagem
+										<input type="file" name="telefone" placeholder="Telefone para contato"  required="" class="" style="display: none;" id="file">
 									</label>
 								</div>
 							</div>
@@ -92,35 +85,14 @@
 								</select>
 							</div>
 							<div class="ui dividing header"></div>
-							<center><input type="submit" value="Cadastrar Evento" class="ui primary button submit"></center>
+							<center><input type="submit" value="Cadastrar Evento" class="ui green inverted button submit"></center>
 						</div>
 					</div>
 				</div>
 			</form>
-				<!-- <div class="ui error message"></div> -->
 		</div>
 	</div>
 </div>
-	<!-- <script type="text/javascript">
-	$(function(){
-		$('#cadastro').form({
-			nome : {
-				identifier : 'nome',
-				rules : [
-					{
-						type : 'empty',
-						prompt : 'Mano, coloca um nome ai pow'
-					}
-				]
-			}
-
-		}, {
-			onSuccess : function(e){
-				e.preventDefault();
-			}
-		});
-	});
-	</script>	 -->
 </div>	
 </body>	
 </html>
