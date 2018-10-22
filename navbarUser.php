@@ -5,6 +5,9 @@
  <a href="adicionarEventos.php" class="item">
   <i class="calendar green icon"></i><span style="color: green;">Meus Eventos</span>
  </a>
+ <a href="eventos.php" class="item">
+   <i class="calendar green icon"></i><span style="color: green;">Ver Eventos</span>
+ </a>
  <div class=" right menu">
   <div class="item">
    <div class="ui action input"> 
