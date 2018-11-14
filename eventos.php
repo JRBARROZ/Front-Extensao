@@ -7,12 +7,16 @@
 	<title>Portal de Eventos - IFPE</title>
 	<style>
 		body{
-			background-color: black;
+			background-color: #e9e9e9;
+		}
+		.container{
+			padding: 80px 0px 0px 0px;
 		}
 	</style>
 </head>
 <body>
 	<?php include "navbar.php"; ?>
+	<br>
 	<div class="ui container">
 		<!-- Parte da seleção de eventos -->
 		<div class="ui three column grid">

@@ -7,7 +7,7 @@
 	<link rel="shortcut icon" href="_imagem/_icone/ifpe.png">
 	<style>
 	body {
-		background-color: #000;
+		background-color: #e9e9e9;
 		overflow: hidden;
 
 	}
@@ -22,8 +22,9 @@
 </head>
 <body>
 	<?php include "navbar.php"; ?>
+	<br><br><br>
 	<div class="column">
-		<div class="ui message">
+		<div class="ui segment">
 			<h2 class="ui teal image header">
 				<img src="_imagem/_icone/ifpe.png" class="ui hurger image">
 				<div class="content">
@@ -33,13 +34,13 @@
 		</div>
 		<form class="ui form">
 			<div class="ui stacked large green segment">
-				<div class="field">
+				<div class="field"><label>Email</label>
 					<div class="ui left icon input">
 						<i class="user green icon"></i>
 						<input type="text" name="email" placeholder="Seu email">
 					</div>
 				</div>
-				<div class="field">
+				<div class="field"><label>Senha</label>
 					<div class="ui left icon input">
 						<i class="lock green icon"></i>
 						<input type="password" name="password" placeholder="Senha">
@@ -48,7 +49,7 @@
 				<a href="adicionarEventos.php"><div class="ui fluid large inverted green submit button">Login</div></a>
 			</div>
 		</form>  
-		<div class="ui message">
+		<div class="ui segment">
      		<center>Não tem uma conta? <a href="cadastro.php" style="color: green;">  Cadastre-se</a></center>
     	</div>	
 	</div>

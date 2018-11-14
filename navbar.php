@@ -1,4 +1,5 @@
-<div class="ui large stackable menu">
+<body>
+<div class="ui large fixed stackable menu">
  <a href="" class="item">
   <img src="_imagem/_icone/ifpe.png" alt="">
  </a>
@@ -19,3 +20,4 @@
   </a>
  </div>
 </div>
+</body>

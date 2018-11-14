@@ -1,4 +1,4 @@
-<div class="ui large stackable menu">
+<div class="ui large stackable menu fixed">
  <a href="eventos.php" class="item">
   <img src="_imagem/_icone/ifpe.png" alt="">
  </a>

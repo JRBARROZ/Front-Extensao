@@ -1,14 +1,18 @@
+<?php include 'navbarUser.php'; ?>
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.css">
 	<link rel="shortcut icon" href="_imagem/_icone/ifpe.png">
 	<title>Portal de Eventos - IFPE</title>
-	<style type="text/css">body{background-color: #e9e9e9;}</style>
+	<style>
+		body{
+			background-color: #e9e9e9;
+		}
+	</style>
 </head>
-<body >
-	<?php include "navbarUser.php"; ?>
+<body>
 	<br><br><br><br>
 	<div class="ui container">
 		<div class="ui green segment">
@@ -16,28 +20,29 @@
 				<div class="column">
 					<form action="previewEvento.php" class="ui form" id="cadastro" method="post">
 						<center>
-							<h2 class="ui  header">Cadastro do Evento</h2>
+							<h2 class="ui  header">Editar Evento</h2>
 						</center>
 						<br>
 						<strong><h3 class="ui dividing header">Sobre o evento</h3></strong>
 						<div class="field">
 							<br><label>Nome*
-								<input type="text" name="nome" placeholder="Nome do evento"  >
+								<input type="text" name="nome" placeholder="Nome do evento" value="" >
 							</label>
 							<div class="field">
 								<br><label>Descrição*
-									<textarea placeholder="Descrição do Evento" name="descricao" ></textarea>
+									<textarea placeholder="Descrição do Evento" name="descricao" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae faucibus quam. Donec turpis enim, mollis convallis eleifend vel, viverra sit amet ex. Etiam interdum elit sed vulputate viverra. Nullam commodo tellus purus, sit amet accumsan mauris suscipit feugiat. Nulla facilisi. Fusce varius vitae elit non consectetur. Aenean libero odio, dignissim ut iaculis sed, mattis ultricies nunc. Duis at finibus nibh. Sed tincidunt porta libero, in efficitur ante pulvinar non. Pellentesque fringilla fringilla urna eu posuere. Nulla volutpat pretium turpis ut auctor. Nullam ac finibus dui. Cras consequat varius justo, sagittis dapibus turpis faucibus at. Duis aliquam luctus eros, ut fringilla lorem consequat sed.
+									</textarea>
 								</label>
 							</div>
 							<div class="three fields">
 								<div class="field">
 									<br><label>Email
-										<input type="text" name="email" placeholder="Email para contato"  >
+										<input type="text" name="email" placeholder="Email para contato" value="XXXXX@XXX.XXX" >
 									</label>
 								</div>
 								<div class="field">
 									<br><label>Telefone
-										<input type="text" name="telefone" placeholder="Telefone para contato"  >
+										<input type="text" name="telefone" placeholder="Telefone para contato" value="000-000-00" >
 									</label>
 								</div>
 								<div class="field">
@@ -50,7 +55,7 @@
 							<div class="five fields">
 								<div class="field">
 									<br><label>Inicio*
-										<input type="date" name="data" placeholder="Data do evento"   >
+										<input type="date" name="data" placeholder="Data do evento"  >
 									</label>
 								</div>
 								<div class="field">
@@ -86,7 +91,7 @@
 								</select>
 							</div>
 							<div class="ui dividing header"></div>
-							<center><input type="submit" value="Cadastrar Evento" class="ui green inverted button submit"></center>
+							<center><input type="submit" value="Finalizar Edição" class="ui green inverted button submit"></center>
 						</div>
 					</div>
 				</div>
@@ -96,5 +101,5 @@
 </div>
 </div>	
 <br><br>
-</body>	
+</body>
 </html>
