@@ -23,18 +23,17 @@
 </style>
 </head>
 <body>
-	<table>
-		<?php for ($i=0; $i < 3; $i++): ?>
-			<tr>
-				<?php for ($j=0; $j < 3; $j++): ?>
-					<td>
+	
+				<div style="width: 80%;">
+				<?php for ($j=0; $j < 7; $j++): ?>
+					<div style="float:left;">
 						<a href="#">
 							<div class="ui link cards">
-								<div class="green card">
+								<div class="green card" style="">
 									<div class="ui fluid image">
 										<label class="ui green ribbon label">20:00 Ás 10:00</label>		
 										<div class="image">
-											<img src="download.jpeg" class="ui massive image">
+											<img src="_imagem/_eventos/got.png" class="ui massive image">
 										</div>
 									</div>
 									<div class="content">
@@ -50,8 +49,8 @@
 									<div class="extra content">
 										<div class="right floated">
 											<div class="ui green inverted button">
-												<i class="calendar icon"></i>
-												Consultar
+												<i class="delete icon"></i>
+												Deletar
 											</div>
 										</div>
 										<div class="ui green inverted button">
@@ -62,10 +61,9 @@
 								</div>
 							</div> 
 						</a>
-					</td>
-				<?php endfor; ?>
-			</tr>
+					</div>	
 		<?php endfor; ?>
-	</table>	 
+					</div>
+ 
 </body>
 </html>
