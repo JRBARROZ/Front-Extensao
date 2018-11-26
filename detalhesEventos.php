@@ -36,16 +36,37 @@
 	th{
 		font-size: 16px;
 	}
+	.div3{
+		color: white;
+	}
+	.ui.vertical.masthead.center.aligned.segment{
+		background-image:url(_imagem/_eventos/teste.png);
+		position: relative;
+		background-size: cover;
+
+	}
+	.ui.vertical.masthead.center.aligned.segment:before{
+		background-color: red;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		content: '';
+		background-color: rgba(0,0,0,0.8);
+	}		
 </style>
 </head>
 <body>
 	<?php include 'navbar.php'; ?>
-	<div class="ui inverted vertical masthead center aligned segment">
-		<br><br><br><br><br>
-		<h1 class="span">(Titulo Evento)</h1>
-		<h2 class="opacity">00/00/0000 a/e 00/00/0000</h2>
-		<h2 class="opacity">Campus XXXXX - IFPE </h2>
-		<h2 class="opacity">(Cidade)</h2>
+	<div class="ui vertical masthead center aligned segment">
+			<br><br><br><br><br>
+			<div class="div3">	
+				<h1 class="span">(Titulo Evento)</h1>
+				<h2 class="opacity">00/00/0000 a/e 00/00/0000</h2>
+				<h2 class="opacity">Campus XXXXX - IFPE </h2>
+				<h2 class="opacity">(Cidade)</h2>
+			</div>
 	</div>
 	<div class="ui container">
 		<div class="position">
