@@ -12,7 +12,7 @@
 			text-align: center;
 		}
 		.ui.container.tabela{
-			margin-top: 100px;
+			margin-top: 50px;
 		}
 		.ui.divider{
 			margin-top: 120px;
@@ -22,79 +22,110 @@
 			background-color: white;
 			width: 500px;
 		}
+		html,
+		body {
+		   margin:0;
+		   padding:0;
+		   height:100%;
+		}
+		#container {
+		   min-height:100%;
+		   position:relative;
+		}
+		#header {
+		   /*background:#ff0;*/
+		   padding:10px;
+		}
+		#body {
+		   padding:10px;
+		   padding-bottom:60px;   /* Height of the footer */
+		}
+		#footer {
+		   position:absolute;
+		   bottom:0;
+		   width:100%;
+		   height:60px;   /* Height of the footer */
+		   /*background:#6cf;*/
+		}
 	</style>
 </head>
 <body>
-<?php include 'navbarUser.php'; ?>
-	<div class="ui container tabela">
-		<div class="ui segment">
-			<center><h1 class="ui green header">Gerenciador de participantes</h1></center>
-		</div>
-		<table class="ui green table">
-			<tr>
-				<thead>
-					<th>Nome</th>
-					<th>CPF</th>
-					<th>Cargo</th>
-					<th>Ações</th>
-				</thead>
-				<tbody>
+	<div id="container">
+		<?php include 'navbarUser.php'; ?>
+		<div id="body">
+			<div class="ui container tabela">
+				<div class="ui segment">
+					<center><h1 class="ui green header">Gerenciador de participantes</h1></center>
+				</div>
+				<table class="ui green table">
 					<tr>
-						<td>Jhonatas</td>
-						<td>1234567891011</td>
-						<td>Participante</td>
-						<td>
-							<div class="ui mini buttons">
-								<button class="ui positive button">
-									<i class="check icon"></i>Confirmar
-								</button>
-									<div class="or">
+						<thead>
+							<th>Nome</th>
+							<th>CPF</th>
+							<th>Cargo</th>
+							<th>Ações</th>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Jhonatas</td>
+								<td>1234567891011</td>
+								<td>Participante</td>
+								<td>
+									<div class="ui mini buttons">
+										<button class="ui positive button">
+											<i class="check icon"></i>Confirmar
+										</button>
+											<div class="or">
+											</div>
+										<button class="ui negative button">
+											<i class="close icon"></i> Excluir
+										</button>
 									</div>
-								<button class="ui negative button">
-									<i class="close icon"></i> Excluir
-								</button>
-							</div>
-						</td>
-					</tr>
-						<tr>
-						<td>Jhonatas</td>
-						<td>1234567891011</td>
-						<td>Participante</td>
-						<td>
-							<div class="ui mini buttons">
-								<button class="ui positive button">
-									<i class="check icon"></i>Confirmar
-								</button>
-									<div class="or">
+								</td>
+							</tr>
+								<tr>
+								<td>Jhonatas</td>
+								<td>1234567891011</td>
+								<td>Participante</td>
+								<td>
+									<div class="ui mini buttons">
+										<button class="ui positive button">
+											<i class="check icon"></i>Confirmar
+										</button>
+											<div class="or">
+											</div>
+										<button class="ui negative button">
+											<i class="close icon"></i> Excluir
+										</button>
 									</div>
-								<button class="ui negative button">
-									<i class="close icon"></i> Excluir
-								</button>
-							</div>
-						</td>
-					</tr>
-						<tr>
-						<td>Jhonatas</td>
-						<td>1234567891011</td>
-						<td>Participante</td>
-						<td>
-							<div class="ui mini buttons">
-								<button class="ui positive button">
-									<i class="check icon"></i>Confirmar
-								</button>
-									<div class="or">
+								</td>
+							</tr>
+							<?php for($i = 0; $i < 100; $i++): ?>
+								<tr>
+								<td>Jhonatas</td>
+								<td>1234567891011</td>
+								<td>Participante</td>
+								<td>
+									<div class="ui mini buttons">
+										<button class="ui positive button">
+											<i class="check icon"></i>Confirmar
+										</button>
+											<div class="or">
+											</div>
+										<button class="ui negative button">
+											<i class="close icon"></i> Excluir
+										</button>
 									</div>
-								<button class="ui negative button">
-									<i class="close icon"></i> Excluir
-								</button>
-							</div>
-						</td>
-					</tr>
-				</tbody>
-			</tr>		
-		</table>
-	</div>	
-</div>
-<?php include 'footer.php'; ?>
+								</td>
+							</tr>
+						<?php endfor; ?>
+						</tbody>
+					</tr>		
+				</table>
+			</div>	
+		</div>
+		<br><br><br><br>	
+		<?php include 'footer.php'; ?>
+	</div>
 </body>
 </html>
