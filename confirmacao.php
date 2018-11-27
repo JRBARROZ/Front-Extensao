@@ -54,10 +54,10 @@
 		<?php include 'navbarUser.php'; ?>
 		<div id="body">
 			<div class="ui container tabela">
-				<div class="ui segment">
+				<div class="ui green segment">
 					<center><h1 class="ui green header">Gerenciador de participantes</h1></center>
 				</div>
-				<table class="ui green table">
+				<table class="ui table" style="width: 100%;">
 					<tr>
 						<thead>
 							<th>Nome</th>
@@ -65,28 +65,11 @@
 							<th>Cargo</th>
 							<th>Ações</th>
 						</thead>
-						<tbody>
-							<tr>
-								<td>Jhonatas</td>
-								<td>1234567891011</td>
-								<td>Participante</td>
-								<td>
-									<div class="ui mini buttons">
-										<button class="ui positive button">
-											<i class="check icon"></i>Confirmar
-										</button>
-											<div class="or">
-											</div>
-										<button class="ui negative button">
-											<i class="close icon"></i> Excluir
-										</button>
-									</div>
-								</td>
-							</tr>
+						<tbody>	
 								<tr>
-								<td>Jhonatas</td>
-								<td>1234567891011</td>
-								<td>Participante</td>
+								<td>xxxxx</td>
+								<td>xxxxx</td>
+								<td>xxxxx</td>
 								<td>
 									<div class="ui mini buttons">
 										<button class="ui positive button">
@@ -100,32 +83,11 @@
 									</div>
 								</td>
 							</tr>
-							<?php for($i = 0; $i < 100; $i++): ?>
-								<tr>
-								<td>Jhonatas</td>
-								<td>1234567891011</td>
-								<td>Participante</td>
-								<td>
-									<div class="ui mini buttons">
-										<button class="ui positive button">
-											<i class="check icon"></i>Confirmar
-										</button>
-											<div class="or">
-											</div>
-										<button class="ui negative button">
-											<i class="close icon"></i> Excluir
-										</button>
-									</div>
-								</td>
-							</tr>
-						<?php endfor; ?>
 						</tbody>
 					</tr>		
 				</table>
 			</div>	
 		</div>
-		<br><br><br><br>	
-		<?php include 'footer.php'; ?>
 	</div>
 </body>
 </html>
