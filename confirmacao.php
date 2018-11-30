@@ -66,6 +66,7 @@
 							<th>Ações</th>
 						</thead>
 						<tbody>	
+							<?php for ($i=0; $i < 20; $i++): ?>
 								<tr>
 								<td>xxxxx</td>
 								<td>xxxxx</td>
@@ -83,11 +84,13 @@
 									</div>
 								</td>
 							</tr>
+						<?php endfor; ?>
 						</tbody>
 					</tr>		
 				</table>
 			</div>	
 		</div>
 	</div>
+	<?php include 'footer.php'; ?>
 </body>
 </html>

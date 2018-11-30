@@ -21,6 +21,29 @@
 	<div class="ui container">
 		<div class="position">
 			<div class="ui segment">
+				<center><span><h1>Palestrantes do evento</h1></span></center>
+				<div class="ui list">
+					<center>
+  <div class="item">
+    <img class="ui avatar tiny image" src="_imagem/_eventos/B.jpg">
+    <div class="content">
+      <h2>Jennifer Müller</h2>
+      <div class="description">Palestrante sobre o assunto XXXXX<b></div>
+      	<div class="ui divider"></div>
+    </div>
+  </div>
+  <div class="item">
+    <img class="ui avatar tiny image" src="_imagem/_eventos/B.jpg">
+    <div class="content">
+      <h2>Michell Otta</h2>
+      <div class="description">Palestrante sobre o assunto XXXXX<b></div>
+      	
+    </div>
+  </div>
+  </center>
+</div>
+			</div>
+			<div class="ui segment">
 				<center><span><h1>Programação do evento</h1></span></center>
 				<!-- <div class="ui green divider"></div> -->
 				<table class="ui green table">
@@ -66,5 +89,7 @@
 				<br>
 			</div>
 		</div>
+	</div>	
+		<?php include 'footer.php'; ?>
 	</body>
 
