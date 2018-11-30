@@ -58,6 +58,7 @@
 </div>
 	<?php endfor;?>
 </div>
+<?php include 'footer.php'; ?>
 </body>
 
 </html>
