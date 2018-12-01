@@ -1,18 +1,3 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <title></title>
-  <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
-  <script
-    src="https://code.jquery.com/jquery-3.1.1.min.js" ></script>
-  <script src="semantic/dist/semantic.min.js"></script>
-<style>
-  *{margin:0;padding: 0;}
-</style>
-
-</head>
-<body>
   <!-- Navbar fixa -->
   <div class="ui fixed menu">
     <!-- definindo uma imagem de logo -->
@@ -44,4 +29,3 @@
        transition: 'slide down'
      });
   </script>
-</body>
