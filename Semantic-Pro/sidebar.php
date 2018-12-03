@@ -16,6 +16,9 @@
 	      <i class="phone large green icon"></i><p>(81) 4002-8922</p>
 	    </div>
 	     <div class="item">
-	      <button class="ui green fluid button"><i class="edit icon"></i>Editar dados de usuário</button>
-	  </div>
+	    	<button class="ui green fluid button"><i class="edit icon"></i>Editar dados de usuário</button>
+	  	</div>
+	  	<div class="item">
+	    	<button class="ui red fluid button"><i class="sign-out icon"></i>Sair</button>
+	  	</div>	
 </div> 
