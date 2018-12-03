@@ -11,7 +11,6 @@
 	</style>
 </head>
 <body >
-	<?php include 'sidebar.php'; ?>	
 	<?php include "NavbarUser.php"; ?>
 	<div class="ui container" style="margin-top: 100px;">
 		<div class="ui green segment">
@@ -32,7 +31,7 @@
 									<textarea placeholder="Descrição do Evento" name="descricao" ></textarea>
 								</label>
 							</div>
-							<div class="three fields">
+							<div class="four fields">
 								<div class="field">
 									<br><label>Email
 										<input type="text" name="email" placeholder="Email para contato"  >
@@ -40,7 +39,12 @@
 								</div>
 								<div class="field">
 									<br><label>Telefone
-										<input type="text" name="telefone" placeholder="Telefone para contato"  >
+										<input type="text" name="telefone" placeholder="Telefone para contato">
+									</label>
+								</div>
+								<div class="field">
+									<br><label>Vagas*
+										<input type="number" name="vagas" placeholder="Limite máximo de participantes." min="0" max="300">
 									</label>
 								</div>
 								<div class="field">

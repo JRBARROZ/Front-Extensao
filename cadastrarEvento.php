@@ -29,7 +29,7 @@
 									<textarea placeholder="Descrição do Evento" name="descricao" ></textarea>
 								</label>
 							</div>
-							<div class="three fields">
+							<div class="four fields">
 								<div class="field">
 									<br><label>Email
 										<input type="text" name="email" placeholder="Email para contato"  >
@@ -37,6 +37,11 @@
 								</div>
 								<div class="field">
 									<br><label>Telefone
+										<input type="text" name="telefone" placeholder="Telefone para contato"  >
+									</label>
+								</div>
+								<div class="field">
+									<br><label>Vagas*
 										<input type="text" name="telefone" placeholder="Telefone para contato"  >
 									</label>
 								</div>

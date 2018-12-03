@@ -1,4 +1,5 @@
-	<div class="ui sidebar right vertical menu">
+
+	<div class="ui sidebar inverted right vertical menu">
 		<center>	
 			<div class="item">
 	    	 	<img class="ui avatar tiny image" src="./../_imagem/_eventos/B.jpg">

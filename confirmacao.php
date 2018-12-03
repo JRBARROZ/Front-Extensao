@@ -75,7 +75,7 @@
 						<tbody>	
 							<?php for ($i=0; $i < 20; $i++): ?>
 								<tr>
-								<td>xxxxx</td>
+								<td>Jhonatas Rodrigues de Barros</td>
 								<td>xxxxx</td>
 								<td>xxxxx</td>
 								<td>

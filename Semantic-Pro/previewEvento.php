@@ -15,7 +15,7 @@
 	</style>
 </head>
 <body>
-<?php include "Navbar.php"; ?>
+<?php include "NavbarUser.php"; ?>
 	<div class="ui container"  style="margin-top: 100px;" >
 		<div class="ui link cards">
 			<?php for ($i=0; $i < 1; $i++): ?>
@@ -33,7 +33,7 @@
 					<div class="ui equal width grid">
 						<div class="thwo wide row">
 							<div class="column"><a href="detalhesEventosUser.php"><div class="ui green fluid button"><i class="check icon"></i>Confirmar</div></a></div>	
-							<div class="column"><a href="editarEventos.php"><div class="ui green fluid button"><i class="edit icon"></i>Editar</div></a></div>		
+							<div class="column"><a href="cadastrarEvento.php"><div class="ui green fluid button"><i class="edit icon"></i>Editar</div></a></div>		
 						</div>
 					</div>
 				</div>

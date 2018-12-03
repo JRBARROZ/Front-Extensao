@@ -30,7 +30,7 @@
 							<div class="description">Matthew is an interior designer living in New York.</div>
 						</div>
 						<div class="ui equal width grid">
-					<div class="thwo wide row">
+					<div class="two wide row">
 						<div class="column"><a href="editarEventos.php"><div class="ui green fluid button"><i class="edit icon"></i>Editar</div></a></div>	
 						<div class="column"><a href="detalhesEventosUser.php"><div class="ui green fluid button"><i class="calendar icon"></i>Detalhes</div></a></div>		
 					</div>

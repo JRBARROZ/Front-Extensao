@@ -7,7 +7,7 @@
 	<link rel="shortcut icon" href="_imagem/_icone/ifpe.png">
 	<style>
 	body {
-		background-color: #e9e9e9;
+		background-color: #ccc;
 	}
 	.column {
 		max-width: 450px;

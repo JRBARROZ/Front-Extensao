@@ -63,7 +63,7 @@
 				<div class="ui green segment">
 					<center><h1 class="ui green header">Gerenciador de participantes</h1></center>
 				</div>
-				<table class="ui table" style="width: 100%;">
+				<table class="ui table" style="width: 100%;padding: 30px;border-radius: 20px;">
 					<tr>
 						<thead>
 							<th>Nome</th>
@@ -74,9 +74,9 @@
 						<tbody>	
 							<?php for ($i=0; $i < 20; $i++): ?>
 								<tr>
-								<td>xxxxx</td>
-								<td>xxxxx</td>
-								<td>xxxxx</td>
+								<td>Jhonatas Rodrigues de Barros Da Silva Siqueria Mello Ranieri Erickson Bispo Strapação</td>
+								<td>123.123.123.12</td>
+								<td>Participante/Palestrante</td>
 								<td>
 									<div class="ui mini buttons">
 										<button class="ui positive button">

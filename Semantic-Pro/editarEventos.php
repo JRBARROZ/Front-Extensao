@@ -31,7 +31,7 @@
 									</textarea>
 								</label>
 							</div>
-							<div class="three fields">
+							<div class="four fields">
 								<div class="field">
 									<br>
 									<label>Email<input type="text" name="email" placeholder="Email para contato" value="XXXXX@XXX.XXX" ></label>
@@ -41,6 +41,11 @@
 									<label>
 										Telefone
 										<input type="text" name="telefone" placeholder="Telefone para contato" value="000-000-00" >
+									</label>
+								</div>
+								<div class="field">
+									<br><label>Vagas*
+										<input type="number" name="vagas" placeholder="Limite máximo de participantes." min="0" max="300">
 									</label>
 								</div>
 								<div class="field">
