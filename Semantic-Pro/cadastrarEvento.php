@@ -2,15 +2,18 @@
 <html lang="pt-br">
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.css">
+	<link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
 	<link rel="shortcut icon" href="_imagem/_icone/ifpe.png">
 	<title>Portal de Eventos - IFPE</title>
-	<style type="text/css">body{background-color: #e9e9e9;}</style>
+	<style type="text/css">	
+	*{margin:0;padding: 0;}
+	body{background-color: #ccc;}
+	</style>
 </head>
 <body >
-	<?php include "Navbar.php"; ?>
-	<br><br><br><br>
-	<div class="ui container">
+	<?php include 'sidebar.php'; ?>	
+	<?php include "NavbarUser.php"; ?>
+	<div class="ui container" style="margin-top: 100px;">
 		<div class="ui green segment">
 			<div class="ui vertically divided grid">
 				<div class="column">
@@ -41,7 +44,7 @@
 									</label>
 								</div>
 								<div class="field">
-									<br><br><label for="file" class="ui icon green inverted button"><i class="file image icon"></i> Adicionar-Imagem
+									<br><br><label for="file" class="ui icon green button" style="color: white;"><i class="file image icon"></i> Adicionar-Imagem
 										<input type="file" name="imagem" placeholder="Telefone para contato"   class="" style="display: none;" id="file">
 									</label>
 								</div>
@@ -86,15 +89,15 @@
 								</select>
 							</div>
 							<div class="ui dividing header"></div>
-							<center><input type="submit" value="Cadastrar Evento" class="ui green inverted button submit"></center>
+							<center><input type="submit" value="Cadastrar Evento" class="ui green button submit"></center>
+							</div>
 						</div>
 					</div>
-				</div>
-			</form>
+				</form>
+			</div>
 		</div>
 	</div>
 </div>
-</div>	
-<br><br>
+<?php include 'footer.php'; ?>
 </body>	
 </html>

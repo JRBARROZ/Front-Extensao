@@ -2,9 +2,15 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Teste</title>
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.css">
+	<link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+	<link rel="shortcut icon" href="./../_imagem/_icone/ifpe.png">
+	<link rel="stylesheet" href="./../css/evento.css">
+	<title>Portal de Eventos - IFPE</title>
 	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
 		body{
 			background-color: #e9e9e9;
 		}
@@ -51,7 +57,8 @@
 </head>
 <body>
 	<div id="container">
-		<?php include 'navbarUser.php'; ?>
+
+		<?php include 'NavbarUser.php'; ?>
 		<div id="body">
 			<div class="ui container tabela">
 				<div class="ui green segment">

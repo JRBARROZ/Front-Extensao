@@ -19,19 +19,19 @@
 </style>
 </head>
 <body>
-	<?php include "Navbar.php"; ?>
+	<?php require_once "Navbar.php"; ?>
 	<br><br><br>
 	<div class="column">
-		<div class="ui segment">
+		<div class="ui green segment">
 			<h2 class="ui teal image header">
-				<img src="_imagem/_icone/ifpe.png" class="ui hurger image">
+				<img src="./../_imagem/_icone/ifpe.png" class="ui hurger image">
 				<div class="content">
-					<span style="color:darkgreen"><h2 class="ui green header">Acesse agora, Eventos - IFPE</h3></span>
+					<span style="color:darkgreen">Acesse agora, Eventos - IFPE</span>
 				</div>
 			</h2>
 		</div>
 		<form class="ui form">
-			<div class="ui stacked large green segment">
+			<div class="ui large segment">
 				<div class="field"><label>Email</label>
 					<div class="ui left icon input">
 						<i class="user green icon"></i>
@@ -44,11 +44,11 @@
 						<input type="password" name="password" placeholder="Senha">
 					</div>
 				</div>
-				<a href="adicionarEventos.php"><div class="ui fluid large inverted green submit button">Login</div></a>
+				<a href="adicionarEventos.php"><div class="ui fluid large green submit button">Login</div></a>
 			</div>
 		</form>  
 		<div class="ui segment">
-     		<center>Não tem uma conta? <a href="cadastro.php" style="color: green;">  Cadastre-se</a></center>
+     		<center>Não tem uma conta?   <a href="cadastro.php" style="color: darkgreen;"> Cadastre-se</a></center>
     	</div>	
 	</div>
 	<?php include 'footer.php'; ?>

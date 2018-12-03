@@ -19,32 +19,34 @@
 	</style>
 </head>
 <body>
-	<?php include "navbar.php"; ?>
+	<?php include "Navbar.php"; ?>
 	<br><br><br>
 	<div class="column">
-		<div class="ui segment">
+		<div class="ui green segment">
 			<h2 class="ui teal image header">
-				<img src="_imagem/_icone/ifpe.png" class="ui hurger image">
+				<img src="./../_imagem/_icone/ifpe.png" class="ui hurger image">
 				<div class="content">
-					 Cadastre-se agora, Eventos - IFPE
+					 <span style="color: darkgreen;">Cadastre-se agora, Eventos - IFPE</span>
 				</div>
 			</h2>
 		</div>
-		<div class="ui green segment">
+		<div class="ui segment">
 			<form action="" class="ui form">
-				<div class="field">
+				<div class="two fields">
+					<div class="field">
 					<label for="">Nome*</label>
 					<div class="ui left icon input">
 						<i class="user green icon"></i>
 						<input type="text" placeholder="Nome">
 					</div>
-				</div>
+					</div>
 				<div class="field">
 					<label for="">CPF*</label>
 					<div class="ui left icon input">
 						<i class="key green icon"></i>
 						<input type="text" placeholder="CPF">
 					</div>
+				</div>
 				</div>
 				<div class="two fields">
 					<div class="field">	
@@ -78,7 +80,7 @@
 						</div>
 					</div>
 				</div>
-				<a href="login.php"><div class="ui fluid large inverted green submit button">Cadastrar</div></a>
+				<a href="login.php"><div class="ui fluid large green submit button">Cadastrar</div></a>
 			</form>
 		</div>
 		<div class="ui segment">
