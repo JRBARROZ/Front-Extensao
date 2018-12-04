@@ -6,12 +6,21 @@
   *{margin:0;padding: 0;}
   body{background-color: #ccc;}
   /*footer{background-color:darkgreen; color: white;display: flex;justify-content: center;margin-top: 20px;padding: 10px; width: 100%;position:}*/
+  .ui.container{
+    margin-top: 100px;
+    padding: 0px 0px 0px 110px;
+  }
+  @media only screen and (max-width: 600px) {
+    .ui.container{
+      padding: 0px 0px 0px 35px;
+    }
+}
 </style>
 
 </head>
 <body>
   <?php require_once 'Navbar.php'; ?>
-  <div class="ui container" style="margin-top: 100px;padding: 0px 0px 0px 110px;">
+  <div class="ui container">
     <div class="ui link cards" >
     <?php for ($i=0; $i < 6; $i++): ?>
       <div class="card" style="padding: 3px;">
