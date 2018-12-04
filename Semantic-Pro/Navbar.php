@@ -1,4 +1,4 @@
-<script src="https://code.jquery.com/jquery-3.1.1.min.js" ></script>
+<script src="semantic/dist/jquery-3.3.1.min.js" ></script>
 <script src="semantic/dist/semantic.min.js"></script>
 <!-- Navbar fixa -->
 <div class="ui fixed borderless menu">

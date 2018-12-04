@@ -48,7 +48,6 @@
 					</center>
 				</div>
 			</div>
-			xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 			<div class="ui segment">
 				<center><span><h1>Programação do evento</h1></span></center>
 				<!-- <div class="ui green divider"></div> -->
@@ -114,7 +113,6 @@
 								</tbody>
 							</table>
 						</div>
-						xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 						<div class="ui segment">
 							<center><span><h1>Descrição do evento</h1></span></center>
 							<div class="ui green divider"></div>

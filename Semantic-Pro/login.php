@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Login Eventos - IFPE</title>
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.css">
+	<link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
 	<link rel="shortcut icon" href="_imagem/_icone/ifpe.png">
 	<style>
 	body {
