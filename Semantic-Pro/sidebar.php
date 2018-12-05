@@ -2,12 +2,12 @@
 	<div class="ui sidebar inverted right vertical menu">
 		<center>	
 			<div class="item">
-	    	 	<img class="ui avatar tiny image" src="./../_imagem/_eventos/B.jpg">
-	    	 	<h2>Jhonatas Rodrigues</h2>
+	    	 	<img class="ui avatar tiny image" src="./../_imagem/_eventos/ifex.jpg ">
+	    	 	<h2>(ADMIN)</h2>
 	    	</div>
 	    </center>
 	    <div class="item">
-	      <i class="large mail green icon"></i><p>jhonsnoow32@gmail.com</p>
+	      <i class="large mail green icon"></i><p>admin@ifpe.edu</p>
 	    </div>
 	    <div class="item">
 	      <i class="address green large card icon"></i><p>123.456.789-10</p>

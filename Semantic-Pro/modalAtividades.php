@@ -1,9 +1,10 @@
 <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
-<script src="semantic/dist/jquery-3.3.1.min.js" ></script>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" ></script>
 <script src="semantic/dist/semantic.min.js"></script>
 <style>
 	body{
 		background-color: #ccc;
+		
 	}
 </style>
 <div class="ui tiny modal">

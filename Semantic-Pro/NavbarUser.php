@@ -19,7 +19,7 @@
     </div>
 
     <div class="right menu">
-        <a  class="item" style="color: green;" id="user"><i class="ui user icon"></i>J.R</a>
+        <a  class="item" style="color: green;" id="user"><i class="ui user icon"></i>Admin</a>
     </div>
     
     </div>

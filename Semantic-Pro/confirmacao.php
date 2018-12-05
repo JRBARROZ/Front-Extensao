@@ -60,7 +60,7 @@
 	<div id="container" style="margin-top: 100px;">
 		<div id="body">
 			<div class="ui container tabela">
-				<div class="ui green segment">
+				<div class="ui segment">
 					<center><h1 class="ui green header">Gerenciador de participantes</h1></center>
 				</div>
 				<table class="ui table" style="width: 100%;padding: 30px;border-radius: 20px;">
@@ -72,11 +72,12 @@
 							<th>Ações</th>
 						</thead>
 						<tbody>	
-							<?php for ($i=0; $i < 20; $i++): ?>
+							<?php $nomes = ['Jon Snow', 'Ivar LothBrok', 'Tyrion Lennister', 'Jofrey Rip']; ?>
+							<?php for ($i=0; $i < sizeof($nomes) ; $i++): ?>
 								<tr>
-								<td>Jhonatas Rodrigues de Barros Da Silva Siqueria Mello Ranieri Erickson Bispo Strapação</td>
+								<td><?php echo $nomes[$i]; ?></td>
 								<td>123.123.123.12</td>
-								<td>Participante/Palestrante</td>
+								<td>Participante</td>
 								<td>
 									<div class="ui mini buttons">
 										<button class="ui positive button">
@@ -85,7 +86,7 @@
 											<div class="or">
 											</div>
 										<button class="ui negative button">
-											<i class="close icon"></i> Excluir
+											<i class="close icon"></i> Omisso
 										</button>
 									</div>
 								</td>

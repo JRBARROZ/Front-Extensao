@@ -11,23 +11,38 @@
 	</style>
 </head>
 <body>
+	<?php $images = ['../_imagem/_eventos/entec.png', '../_imagem/_eventos/ifex.jpg', '../_imagem/_eventos/ifex.jpg', '../_imagem/_eventos/ifex.jpg']; 
+
+$datas = ['10:20 Ás 13:50 19/12/2018', '13:20 Ás 15:50 23/12/2018', '14:20 Ás 16:30 28/12/2018', '15:20 Ás 16:30 30/12/2018', '18:20 Ás 20:30 01/01/2019'];
+	shuffle($datas);
+
+	?>
+
 	<!-- Incluindo Navbar -->
 	<?php include "NavbarUser.php"; ?>
 		<div class="ui container" style="margin-top: 100px;padding: 0px 0px 0px 110px;">
 			<div class="ui link cards">
 				<!-- Imprimindo exemplos de cards para estudo -->
-				<?php for ($i=0; $i < 6; $i++): ?>
+				<?php for ($i=0; $i < 4; $i++): ?>
 					<a href="opa.php">
 					<div class="card" style="padding: 3px;">
 						<!-- tag de imagem dos cards -->
-							<a class="ui green ribbon label" style="position:absolute;z-index: 10; margin-left: 13px;margin-top: 10px;">10:20 Ás 10:30</a>
+							<a class="ui green ribbon label" style="position:absolute;z-index: 10; margin-left: 13px;margin-top: 10px;"><?php echo $datas[$i];?></a>
 						<div class="ui image">
-							<img src="../_imagem/_eventos/vikings.jpg">
+							<img src=<?php echo "$images[$i]"; ?>>
 						</div>
 						<!-- conteudo dos cards -->
 						<div class="content" style="text-align: center;">
-							<div class="header">Matt Giampietro</div>
-							<div class="description">Matthew is an interior designer living in New York.</div>
+							<div class="header"><?php switch ($i) {
+								case '0':
+									echo "Entec 2017";
+									break;
+								
+								default:
+									echo "Evento IFPE 2018";
+									break;
+							} ?></div>
+							<div class="description">Lorem ipsum dolor inpsum dot fla rog fus ro dah dovaki.</div>
 						</div>
 						<div class="ui equal width grid">
 					<div class="two wide row">
