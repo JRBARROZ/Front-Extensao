@@ -6,7 +6,7 @@ Esse projeto teve como objetivo criar um sistema de gerenciamentos de eventos pa
 # Executar
 > Primeiro clone o projeto e entre dentro da pasta
 ```
-git clone https://github.com/Murielson/Front-Extensao.git && cd Fron-Extensao
+git clone https://github.com/Murielson/Front-Extensao.git && cd Front-Extensao
 
 ```
 > Agora Execute o servidor PHP
